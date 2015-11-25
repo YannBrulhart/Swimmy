@@ -18,15 +18,15 @@ namespace Swimmy.Data.Migrations
         {
             context.ClubSet.AddOrUpdate(g => g.Name,
                                         new Club
-                                        {
-                                            Id = 1,
-                                            Name = "Charmey Natation"
-                                        },
+                                            {
+                                                Id = 1,
+                                                Name = "Charmey Natation"
+                                            },
                                         new Club
-                                        {
-                                            Id = 2,
-                                            Name = "Romont"
-                                        });
+                                            {
+                                                Id = 2,
+                                                Name = "Romont"
+                                            });
 
             context.SwimmerSet.AddOrUpdate(s => s.Name,
                                            new Swimmer
@@ -50,6 +50,138 @@ namespace Swimmy.Data.Migrations
                                                    Birth = new DateTime(2006, 4, 30),
                                                    ClubId = 2
                                                });
+
+            context.MeetingsSet.AddOrUpdate(
+                                            new Meeting
+                                                {
+                                                    Id = 1,
+                                                    Name = "Meeting de Charmey 2015",
+                                                    Date = new DateTime(2015, 11, 21)
+                                                },
+                                            new Meeting
+                                                {
+                                                    Id = 2,
+                                                    Name = "Meeting de Charmey 2014",
+                                                    Date = new DateTime(2014, 11, 22)
+                                                });
+
+            context.DisciplineSet.AddOrUpdate(new Discipline
+                                                  {
+                                                      Id = 1,
+                                                      Name = "50m Libre"
+                                                  },
+                                              new Discipline
+                                                  {
+                                                      Id = 2,
+                                                      Name = "50m Brasse"
+                                                  },
+                                              new Discipline
+                                                  {
+                                                      Id = 3,
+                                                      Name = "50m Dos"
+                                                  },
+                                              new Discipline
+                                                  {
+                                                      Id = 4,
+                                                      Name = "50m Dauphin"
+                                                  },
+                                              new Discipline
+                                                  {
+                                                      Id = 5,
+                                                      Name = "100m 4 nages"
+                                                  });
+
+            context.ResultSet.AddOrUpdate(new Result
+                                              {
+                                                  DisciplineId = 1,
+                                                  SwimmerId = 1,
+                                                  MeetingId = 1,
+                                                  EntryTime = new TimeSpan(0, 0, 45, 0),
+                                                  ResultTime = new TimeSpan(0, 0, 46, 12)
+                                              },
+                                          new Result
+                                              {
+                                                  DisciplineId = 2,
+                                                  SwimmerId = 1,
+                                                  MeetingId = 1,
+                                                  EntryTime = new TimeSpan(0, 0, 49, 0),
+                                                  ResultTime = new TimeSpan(0, 0, 50, 21)
+                                              },
+                                          new Result
+                                              {
+                                                  DisciplineId = 3,
+                                                  SwimmerId = 1,
+                                                  MeetingId = 1,
+                                                  EntryTime = new TimeSpan(0, 0, 42, 0),
+                                                  ResultTime = new TimeSpan(0, 0, 41, 45)
+                                              },
+                                          new Result
+                                              {
+                                                  DisciplineId = 1,
+                                                  SwimmerId = 2,
+                                                  MeetingId = 1,
+                                                  EntryTime = new TimeSpan(0, 0, 48, 0),
+                                                  ResultTime = new TimeSpan(0, 0, 45, 35)
+                                              },
+                                          new Result
+                                              {
+                                                  DisciplineId = 2,
+                                                  SwimmerId = 2,
+                                                  MeetingId = 1,
+                                                  EntryTime = new TimeSpan(0, 0, 55, 0),
+                                                  ResultTime = new TimeSpan(0, 0, 43, 12)
+                                              },
+                                          new Result
+                                              {
+                                                  DisciplineId = 3,
+                                                  SwimmerId = 2,
+                                                  MeetingId = 1,
+                                                  EntryTime = new TimeSpan(0, 0, 51, 0),
+                                                  ResultTime = new TimeSpan(0, 0, 40, 63)
+                                              },
+                                          new Result
+                                              {
+                                                  DisciplineId = 1,
+                                                  SwimmerId = 1,
+                                                  MeetingId = 2,
+                                                  EntryTime = new TimeSpan(0, 0, 42, 0)
+                                              },
+                                          new Result
+                                              {
+                                                  DisciplineId = 2,
+                                                  SwimmerId = 1,
+                                                  MeetingId = 2,
+                                                  EntryTime = new TimeSpan(0, 0, 49, 0)
+                                              },
+                                          new Result
+                                              {
+                                                  DisciplineId = 3,
+                                                  SwimmerId = 1,
+                                                  MeetingId = 2,
+                                                  EntryTime = new TimeSpan(0, 0, 46, 0)
+                                              },
+                                          new Result
+                                              {
+                                                  DisciplineId = 1,
+                                                  SwimmerId = 2,
+                                                  MeetingId = 2,
+                                                  EntryTime = new TimeSpan(0, 0, 48, 0)
+                                              },
+                                          new Result
+                                              {
+                                                  DisciplineId = 2,
+                                                  SwimmerId = 2,
+                                                  MeetingId = 2,
+                                                  EntryTime = new TimeSpan(0, 0, 55, 0)
+                                              },
+                                          new Result
+                                              {
+                                                  DisciplineId = 3,
+                                                  SwimmerId = 2,
+                                                  MeetingId = 2,
+                                                  EntryTime = new TimeSpan(0, 0, 51, 0)
+                                              })
+                ;
 
             ////  create genres 
             //context.GenreSet.AddOrUpdate(g => g.Name, GenerateGenres());
