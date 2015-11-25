@@ -22,7 +22,7 @@
 
         public IDbSet<User> UserSet { get; set; }
 
-        public IDbSet<UserRole> UserRolesSet { get; set; }
+        public IDbSet<UserRole> UserRoleSet { get; set; }
 
         public IDbSet<Role> RoleSet { get; set; }
 
