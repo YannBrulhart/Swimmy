@@ -6,7 +6,7 @@
 
     using Swimmy.Entities.Contracts;
 
-    interface IEntityBaseRepository<T>
+    public interface IEntityBaseRepository<T>
         where T : class, IEntityBase, new()
     {
         IQueryable<T> All { get; }

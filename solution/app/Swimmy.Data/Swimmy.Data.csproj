@@ -55,6 +55,7 @@
     <Compile Include="Business\SwimmerConfiguration.cs" />
     <Compile Include="Business\ClubConfiguration.cs" />
     <Compile Include="EntityBaseConfiguration.cs" />
+    <Compile Include="Extensions\UserExtensions.cs" />
     <Compile Include="Infrastructure\EntityBaseRepository.cs" />
     <Compile Include="Infrastructure\Contracts\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\Contracts\IEntityBaseRepository.cs" />
