@@ -1,13 +1,15 @@
 ﻿namespace Swimmy.Entities.Business
 {
-    using System.Collections.Generic;
+    using global::System.Collections.Generic;
 
-    public class Club
+    using Swimmy.Entities.Contracts;
+
+    public class Club : IEntityBase
     {
         public virtual List<Swimmer> Swimmers { get; set; } = new List<Swimmer>();
 
         public string Name { get; set; }
 
-        public string FirstName { get; set; }
+        public int Id { get; set; }
     }
 }

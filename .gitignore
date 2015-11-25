@@ -42,8 +42,8 @@ Generated_Code/
 !.nuget/
 !NuGet.exe
 !packages.config
-solution/packages/*/
-solution/**/packages/**/
+packages/*/
+**/packages/**/
 Splash.png
 !packages/repositories.config
 *.deleteme

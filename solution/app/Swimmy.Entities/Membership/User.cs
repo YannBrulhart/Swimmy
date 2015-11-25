@@ -1,7 +1,7 @@
 namespace Swimmy.Entities.Membership
 {
-    using System;
-    using System.Collections.Generic;
+    using global::System;
+    using global::System.Collections.Generic;
 
     using Swimmy.Entities.Contracts;
 
@@ -18,9 +18,9 @@ namespace Swimmy.Entities.Membership
         public bool IsLocked { get; set; }
 
         public DateTime DateCreated { get; set; }
-        
-        public int Id { get; set; }
 
         public virtual List<UserRole> UserRoles { get; set; } = new List<UserRole>();
+
+        public int Id { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Swimmy.Entities.Business
 {
-    using System.Collections.Generic;
+    using global::System.Collections.Generic;
 
     using Swimmy.Entities.Contracts;
 
