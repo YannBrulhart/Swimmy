@@ -8,6 +8,9 @@ using Newtonsoft.Json.Serialization;
 
 namespace Swimmy.Web
 {
+    using Swimmy.Data;
+    using Swimmy.Web.Infrastructure.MessageHandlers;
+
     public static class WebApiConfig
     {
         public static void Register(HttpConfiguration config)
@@ -16,6 +19,8 @@ namespace Swimmy.Web
             // Configure Web API to use only bearer token authentication.
             config.SuppressDefaultHostAuthentication();
             config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
+
+            config.MessageHandlers.Add(new SwimResultsAuthHandler());
 
             // Web API routes
             config.MapHttpAttributeRoutes();
