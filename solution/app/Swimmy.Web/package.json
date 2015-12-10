@@ -1,0 +1,19 @@
+{
+  "name": "swimmy",
+  "version": "1.0.0",
+  "description": "swimmy packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YannBrulhart/Swimmy.git"
+  },
+  "author": "Yann Brulhart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YannBrulhart/Swimmy/issues"
+  },
+  "homepage": "https://github.com/YannBrulhart/Swimmy#readme"
+}
