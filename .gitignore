@@ -73,3 +73,5 @@ solution/app/Swimmy.Web/bower_components/tg-angular-validator/*
 solution/app/Swimmy.Web/bower_components/angular-bootstrap/*
 solution/app/Swimmy.Web/bower_components/angular-loading-bar/*
 solution/app/Swimmy.Web/bower_components/raty/*
+solution/app/Swimmy.Web/node_modules/grunt-contrib-copy/*
+solution/app/Swimmy.Web/node_modules/grunt-contrib-watch/*
