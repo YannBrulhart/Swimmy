@@ -75,3 +75,5 @@ solution/app/Swimmy.Web/bower_components/angular-loading-bar/*
 solution/app/Swimmy.Web/bower_components/raty/*
 solution/app/Swimmy.Web/node_modules/grunt-contrib-copy/*
 solution/app/Swimmy.Web/node_modules/grunt-contrib-watch/*
+solution/app/Swimmy.Web/bower_components/fancybox/*
+solution/app/Swimmy.Web/bower_components/toastr/*
