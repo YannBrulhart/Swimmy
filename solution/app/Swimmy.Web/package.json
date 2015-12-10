@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/YannBrulhart/Swimmy/issues"
   },
-  "homepage": "https://github.com/YannBrulhart/Swimmy#readme"
+  "homepage": "https://github.com/YannBrulhart/Swimmy#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
 }
