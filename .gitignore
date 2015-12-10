@@ -63,3 +63,13 @@ _NCrunch_*/
 us.stackdump
 odx-import-report.zip
 *.sln.ide/
+solution/app/Swimmy.Web/bower_components/angucomplete-alt/*
+solution/app/Swimmy.Web/bower_components/angular/*
+solution/app/Swimmy.Web/bower_components/angular-base64/*
+solution/app/Swimmy.Web/bower_components/angular-file-upload/*
+solution/app/Swimmy.Web/bower_components/bootstrap/*
+solution/app/Swimmy.Web/bower_components/jquery/*
+solution/app/Swimmy.Web/bower_components/tg-angular-validator/*
+solution/app/Swimmy.Web/bower_components/angular-bootstrap/*
+solution/app/Swimmy.Web/bower_components/angular-loading-bar/*
+solution/app/Swimmy.Web/bower_components/raty/*

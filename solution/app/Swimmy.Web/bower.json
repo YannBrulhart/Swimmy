@@ -1,0 +1,28 @@
+{
+  "name": "Swimmy",
+  "homepage": "https://github.com/YannBrulhart/Swimmy",
+  "authors": [
+    "Chamalo <yann@bubusissi.ch>"
+  ],
+  "description": "Swimmy bower file",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angucomplete-alt": "~2.1.0",
+    "angular-base64": "~2.0.5",
+    "angular-file-upload": "~2.2.0",
+    "tg-angular-validator": "~1.2.8",
+    "bootstrap": "~3.3.6",
+    "raty": "~2.7.0",
+    "angular-loading-bar": "~0.8.0",
+    "angular-bootstrap": "~0.14.3"
+  }
+}
