@@ -260,6 +260,9 @@
     <Content Include="Gruntfile.js" />
     <Content Include="Scripts\spa\Modules\common.core.js" />
     <Content Include="Scripts\spa\Modules\common.ui.js" />
+    <Content Include="Scripts\spa\app.js" />
+    <Content Include="Scripts\spa\layout\sidebar.html" />
+    <Content Include="Scripts\spa\layout\sidebar.directive.js" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
