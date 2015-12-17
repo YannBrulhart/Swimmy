@@ -13,13 +13,13 @@
                     },
                     {
                         expand: true,
-                        cwd: 'bower_components/angular/dist/',
-                        src: ['**/*.js', '**/*.map'],
+                        cwd: 'bower_components/angular/',
+                        src: ['**/angular*.js', '**/*.map'],
                         dest: 'scripts/Vendors/'
                     },
                     {
                         expand: true,
-                        cwd: 'bower_components/angular/dist/',
+                        cwd: 'bower_components/angular/',
                         src: ['**/*.css'],
                         dest: 'Content/css/'
                     },
@@ -40,6 +40,18 @@
                         cwd: 'bower_components/angular-bootstrap/',
                         src: ['**/*.css'],
                         dest: 'Content/css/'
+                    },
+                    {
+                        expand: true,
+                        cwd: 'bower_components/angular-route/',
+                        src: ['**/angular*.js', '**/*.map'],
+                        dest: 'scripts/Vendors/'
+                    },
+                    {
+                        expand: true,
+                        cwd: 'bower_components/angular-cookie/',
+                        src: ['**/angular*.js', '**/*.map'],
+                        dest: 'scripts/Vendors/'
                     },
                     {
                         expand: true,
@@ -74,7 +86,7 @@
                     {
                         expand: true,
                         cwd: 'bower_components/bootstrap/dist/css/',
-                        src: ['**/*.css', '**/*.map'],
+                        src: ['**/*.css', '**/*css.map'],
                         dest: 'Content/css/'
                     },
                     {
@@ -122,9 +134,57 @@
                     {
                         expand: true,
                         cwd: 'bower_components/toastr/',
-                        src: ['**/*.css', '**/*.map'],
+                        src: ['**/*.css', '**/*css.map'],
                         dest: 'Content/css/'
                     },
+                    {
+                        expand: true,
+                        cwd: 'bower_components/modernizer/',
+                        src: ['**/modernizr.js'],
+                        dest: 'scripts/Vendors/'
+                    },
+                    {
+                        expand: true,
+                        cwd: 'bower_components/raphael/',
+                        src: ['**/raphael.js'],
+                        dest: 'scripts/Vendors/'
+                    },
+                    {
+                        expand: true,
+                        cwd: 'bower_components/underscore/',
+                        src: ['**/underscore.js'],
+                        dest: 'scripts/Vendors/'
+                    },
+                    {
+                        expand: true,
+                        cwd: 'bower_components/morris.js/',
+                        src: ['*/morris*.js'],
+                        dest: 'scripts/Vendors/'
+                    },
+                    {
+                        expand: true,
+                        cwd: 'bower_components/morris.js/',
+                        src: ['*/*.css', '*/*css.map'],
+                        dest: 'Content/css/'
+                    },
+                                        {
+                        expand: true,
+                        cwd: 'bower_components/fancybox/source/',
+                        src: ['*.js'],
+                        dest: 'scripts/Vendors/'
+                    },
+                    {
+                        expand: true,
+                        cwd: 'bower_components/fancybox/source/',
+                        src: ['*.css'],
+                        dest: 'Content/css/'
+                    },
+                    {
+                        expand: true,
+                        cwd: 'bower_components/font-awesome/css/',
+                        src: ['*.css', '*.css.map'],
+                        dest: 'Content/css/'
+                    }
                 ]
             }
         }        

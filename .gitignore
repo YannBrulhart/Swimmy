@@ -77,3 +77,10 @@ solution/app/Swimmy.Web/node_modules/grunt-contrib-copy/*
 solution/app/Swimmy.Web/node_modules/grunt-contrib-watch/*
 solution/app/Swimmy.Web/bower_components/fancybox/*
 solution/app/Swimmy.Web/bower_components/toastr/*
+solution/app/Swimmy.Web/bower_components/modernizer/*
+solution/app/Swimmy.Web/bower_components/raphael/*
+solution/app/Swimmy.Web/bower_components/underscore/*
+solution/app/Swimmy.Web/bower_components/angular-route/
+solution/app/Swimmy.Web/bower_components/angular-cookie/
+solution/app/Swimmy.Web/bower_components/morris.js/
+solution/app/Swimmy.Web/bower_components/font-awesome/

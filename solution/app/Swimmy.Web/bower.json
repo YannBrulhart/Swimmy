@@ -23,6 +23,10 @@
     "bootstrap": "~3.3.6",
     "raty": "~2.7.0",
     "angular-loading-bar": "~0.8.0",
-    "angular-bootstrap": "~0.14.3"
+    "angular-bootstrap": "~0.14.3",
+    "font-awesome": "~4.5.0"
+  },
+  "resolutions": {
+    "angular": "1.4.8"
   }
 }
