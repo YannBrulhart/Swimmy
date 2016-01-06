@@ -258,6 +258,7 @@
     <Content Include="Content\images\raty\star-off.png" />
     <Content Include="Content\images\raty\star-on.png" />
     <Content Include="Gruntfile.js" />
+    <Content Include="Scripts\spa\Home\rootCtrl.js" />
     <Content Include="Scripts\spa\Modules\common.core.js" />
     <Content Include="Scripts\spa\Modules\common.ui.js" />
     <Content Include="Scripts\spa\app.js" />
@@ -293,8 +294,8 @@
     <Content Include="Scripts\Vendors\angucomplete-alt.min.js" />
     <Content Include="Scripts\Vendors\angular-base64.js" />
     <Content Include="Scripts\Vendors\angular-base64.min.js" />
-    <Content Include="Scripts\Vendors\angular-cookie.js" />
-    <Content Include="Scripts\Vendors\angular-cookie.min.js" />
+    <Content Include="Scripts\Vendors\angular-cookies.js" />
+    <Content Include="Scripts\Vendors\angular-cookies.min.js" />
     <Content Include="Scripts\Vendors\angular-file-upload.js" />
     <Content Include="Scripts\Vendors\angular-file-upload.min.js" />
     <Content Include="Scripts\Vendors\angular-route.js" />
@@ -363,6 +364,8 @@
     <Content Include="Scripts\Vendors\angular.min.js.map" />
     <Content Include="Scripts\Vendors\jquery.min.map" />
     <Content Include="Scripts\Vendors\toastr.js.map" />
+    <Content Include="Scripts\spa\Home\index.html" />
+    <Content Include="Scripts\Vendors\angular-cookies.min.js.map" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Swimmy.Data\Swimmy.Data.csproj">
@@ -392,7 +395,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>50881</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

@@ -41,7 +41,9 @@ namespace Swimmy.Web
             bundles.Add(new ScriptBundle("~/bundles/spa")
             .Include("~/Scripts/spa/modules/common.core.js",
                      "~/Scripts/spa/modules/common.ui.js",
-                     "~/Scripts/spa/layout/sidebar.directive.js"
+                     "~/Scripts/spa/app.js",
+                     "~/Scripts/spa/layout/sidebar.directive.js",
+                     "~/Scripts/spa/Home/rootCtrl.js"
                       ));
 
             bundles.Add(new StyleBundle("~/Content/css")

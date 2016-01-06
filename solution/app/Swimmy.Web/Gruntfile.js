@@ -49,7 +49,7 @@
                     },
                     {
                         expand: true,
-                        cwd: 'bower_components/angular-cookie/',
+                        cwd: 'bower_components/angular-cookies/',
                         src: ['**/angular*.js', '**/*.map'],
                         dest: 'scripts/Vendors/'
                     },

@@ -1,10 +1,10 @@
 ﻿(function() {
     'use strict';
 
-    angular.module('SwimResults', ['common.core', 'common.ui'])
+    angular.module('SwimmingResults', ['common.core', 'common.ui'])
         .config(config);
 
-    config.$inject = ['routeProvider'];
+    config.$inject = ['$routeProvider'];
 
     function config($routeProvider) {
         $routeProvider

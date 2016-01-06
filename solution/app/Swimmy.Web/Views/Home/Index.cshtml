@@ -3,17 +3,16 @@
 }
 <!DOCTYPE html>
 
-<html ng-app="SwimmingResult">
+<html ng-app="SwimmingResults">
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Swimmer Results</title>
     @Styles.Render("~/Content/css")
-        @Scripts.Render("~/bundles/modernizr")
-        <script src="~/Scripts/spa/layout/sidebar.directive.js"></script>
+    @Scripts.Render("~/bundles/modernizr")
 </head>
 <body ng-controller="rootCtrl">
-<top-bar></top-bar>
+@*<top-bar></top-bar>*@
 <div class="row-offcanvas row-offcanvas-left">
     <side-bar></side-bar>
     <div id="main">

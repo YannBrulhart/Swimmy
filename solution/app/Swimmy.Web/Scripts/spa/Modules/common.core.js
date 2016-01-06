@@ -3,6 +3,6 @@
 
     angular.module('common.core', [
         'ngRoute', 'ngCookies', 'base64', 'angularFileUpload',
-        'angularValidator', 'anguComplete-alt'
+        'angularValidator', 'angucomplete-alt'
     ]);
 }())
